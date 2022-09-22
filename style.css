@@ -133,8 +133,12 @@ button.submit-btn:hover{
   color: var(--clr-orange);
   cursor: pointer;
 }
-/* === Thank You Card ===*/
 
+/* === Thank You Card ===*/
+/* Tnakyou card is hide by default */
+.hide {
+  display: none;
+}
 
 .thankyou-card{
   text-align: center;
