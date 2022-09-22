@@ -12,39 +12,40 @@
   <title>Interactive rating component</title>
 </head>
 <body>
-  <div class="card submit-card"> <!-- Rating state start -->
-    <div class="card-content">
-      <img src="./images/icon-star.svg" alt="star" class="star">
-      <h1>How did we do?</h1>
-      <p class="content-text">
-          Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
-      </p>
-      <div class="btn-rating">
-        <ul>
-          <li><button class="btns">1</button></li>
-          <li><button class="btns">2</button></li>
-          <li><button class="btns">3</button></li>
-          <li><button class="btns">4</button></li>
-          <li><button class="btns">5</button></li>
-        </ul>
+  <main class="card">
+    <div class="submit-card"> <!-- Rating state start -->
+      <div class="card-content">
+        <img src="./images/icon-star.svg" alt="star" class="star">
+        <h1>How did we do?</h1>
+        <p class="content-text">
+            Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+        </p>
+        <div class="btn-rating">
+          <ul>
+            <li><button class="btns">1</button></li>
+            <li><button class="btns">2</button></li>
+            <li><button class="btns">3</button></li>
+            <li><button class="btns">4</button></li>
+            <li><button class="btns">5</button></li>
+          </ul>
+        </div>
+          <button id="submit" class="submit-btn">SUBMIT</button>
       </div>
-        <button id="submit" class="submit-btn">SUBMIT</button>
-    </div>
-  </div> <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-  <div  class="card thankyou-card hide"> 
-    <div class="card-content">
-      <img src="./images/illustration-thank-you.svg" alt="" class="thankyou-image">
-      <p class="thankyou-rate">
-        You selected <span><!-- Add rating here --></span> out of 5
-      </p>
-      <h2>Thank you!</h2>
-      <p class="content-text">We appreciate you taking the time to give a rating. If you ever need more support,
-      don’t hesitate to get in touch!</p>
-      <button id="go-back" class="submit-btn">GO BACK</button>
-    </div>
-  </div> <!-- Thank you state end -->
+    </div> <!-- Rating state end -->
+    <!-- Thank you state start -->
+    <div  class="thankyou-card hide">
+      <div class="card-content">
+        <img src="./images/illustration-thank-you.svg" alt="" class="thankyou-image">
+        <p class="thankyou-rate">
+          You selected <span><!-- Add rating here --></span> out of 5
+        </p>
+        <h2>Thank you!</h2>
+        <p class="content-text">We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+        <button id="go-back" class="submit-btn">GO BACK</button>
+      </div>
+    </div> <!-- Thank you state end -->
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
