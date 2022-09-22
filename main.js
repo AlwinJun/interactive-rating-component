@@ -2,6 +2,7 @@ const submit = document.getElementById('submit')
 const goBack = document.getElementById('go-back')
 const submitCard = document.querySelector('.submit-card')
 const thankYouCard = document.querySelector('.thankyou-card')
+const rateBtn = document.querySelectorAll('.btns')
 
 // When click: hide submit card, show thankyou card
 submit.addEventListener('click', function(){
