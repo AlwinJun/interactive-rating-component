@@ -2,10 +2,20 @@ const submit = document.getElementById('submit')
 const goBack = document.getElementById('go-back')
 const submitCard = document.querySelector('.submit-card')
 const thankYouCard = document.querySelector('.thankyou-card')
-const rateBtn = document.querySelectorAll('.btns')
+const rateBtns = document.querySelectorAll('.btns')
+const rate = document.querySelector('.thankyou-rate span')
+
+
+rateBtns.forEach(rateBtn => {
+  rateBtn.addEventListener('click', () => {
+
+  console.log(rateBtn.textContent)
+
+  })
+})
 
 // When click: hide submit card, show thankyou card
-submit.addEventListener('click', function(){
+submit.addEventListener('click', function() {
 
   submitCard.style.display = 'none'
   thankYouCard.classList.remove("hide")
@@ -13,7 +23,7 @@ submit.addEventListener('click', function(){
 })
 
 // When click: hide thankyou card show submit card 
-goBack.addEventListener('click', function(){
+goBack.addEventListener('click', function() {
 
   thankYouCard.classList.add('hide')
   submitCard.style.display = 'block'
