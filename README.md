@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Interactive rating component coding challenge](./public/assets/design/desktop-preview.jpg/)
 
 ## Welcome! 👋
 
@@ -17,7 +17,7 @@ I'm not a FEM pro account user so I don't have acces to the Figma design. But i 
 
 - HTML5
 - CSS3 Custom Properties
-- Javascript
+- TypeScript
 
 ## Author
 
