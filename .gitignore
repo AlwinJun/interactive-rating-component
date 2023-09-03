@@ -1,16 +1,36 @@
 # Avoid accidental upload of the Sketch and Figma design files
 #####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+## Please do not remove lines 5 and 6 - thanks! 🙂
 #####################################################
-*.sketch
-*.fig
+_.sketch
+_.fig
 
-# Avoid accidental XD upload if you convert the design file
-###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
-###############################################
-*.xd
+# Logs
 
-# Avoid your project being littered with annoying .DS_Store files!
+logs
+_.log
+npm-debug.log_
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+\*.local
+
+# Editor directories and files
+
+.vscode/_
+!.vscode/extensions.json
+.idea
 .DS_Store
+_.suo
+_.ntvs_
+_.njsproj
+_.sln
+\*.sw?
+\*.xd
 .prettierignore
+
